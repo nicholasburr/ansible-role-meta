@@ -10,8 +10,8 @@ galaxy_info:
     - focal
 
 dependencies:
-  - role: nicholasburr.common
-  - role: nicholasburr.sshd
-  - role: nicholasburr.unattended_upgrades
-    vars:
-      unattended_upgrades_mail_to: nbburr@gmail.com
+- role: nicholasburr.common
+- role: nicholasburr.sshd
+- role: nicholasburr.unattended_upgrades
+  vars:
+    unattended_upgrades_mail_to: nbburr@gmail.com
