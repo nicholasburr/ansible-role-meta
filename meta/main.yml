@@ -21,7 +21,7 @@ dependencies:
       ssmtp_use_tls: 'yes'
       ssmtp_use_starttls: 'yes'
       ssmtp_auth_method: LOGIN
-      ssmtp_auth_user: nbburr
+      ssmtp_auth_user: nbburr@gmail.com
       ssmtp_auth_pass: !vault |
                           $ANSIBLE_VAULT;1.1;AES256
                           30316461626438343132313436336638306137643436363164343465646462306334303961633532
