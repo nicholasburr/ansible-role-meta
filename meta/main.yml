@@ -12,5 +12,7 @@ galaxy_info:
 dependencies:
   - role: nicholasburr.common
   - role: nicholasburr.sshd
-  - role: nicholasburr.unattended_upgrades
   - role: nicholasburr.ssmtp
+  - role: nicholasburr.unattended_upgrades
+    vars:
+      unattended_upgrades_mail_to: nbburr@gmail.com
