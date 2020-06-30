@@ -13,6 +13,15 @@ dependencies:
   - role: nicholasburr.common
   - role: nicholasburr.sshd
   - role: nicholasburr.ssmtp
+    vars:
+      ssmtp_root_email: nbburr@gmail.com
+      ssmtp_mailhub: smtp.gmail.com:587
+      ssmtp_rewrite_domain: gmail.com
+      ssmtp_from_line_override: 'yes'
+      ssmtp_use_tls: 'yes'
+      ssmtp_use_starttls: 'yes'
+      ssmtp_auth_method: LOGIN
+      ssmtp_auth_user: nbburr@gmail.com
   - role: nicholasburr.unattended_upgrades
     vars:
       unattended_upgrades_mail_to: nbburr@gmail.com
